@@ -1,8 +1,10 @@
 import 'package:bloc/bloc.dart';
 import 'package:eye2025/shared/bloc/base_state.dart';
 
-class CommonCubit<T, S> extends Cubit<BaseState<T, S>> {
+abstract class CommonCubit<T, S> extends Cubit<BaseState<T, S>> {
   CommonCubit(super.initialState);
+
+  void init();
 
   // no need to define equatable anymore
   // also fixes the problem where even if you use equatable

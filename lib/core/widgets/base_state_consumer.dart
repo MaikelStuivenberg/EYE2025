@@ -1,5 +1,5 @@
 import 'package:eye2025/shared/bloc/base_state.dart';
-import 'package:eye2025/shared/widgets/unrecoverable_error.dart';
+import 'package:eye2025/core/widgets/unrecoverable_error.dart';
 import 'package:eye2025/utils/snack_bar_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

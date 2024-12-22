@@ -11,6 +11,7 @@ class SplashCubit extends CommonCubit<void, void> {
   // final FamilyAuthRepository _authRepository;
   // final ProfilesRepository _profilesRepository;?
 
+  @override
   Future<void> init() async {
     // await _authRepository.initAuth();
     // final user = _authRepository.getCurrentUser();
